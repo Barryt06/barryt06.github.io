@@ -1,0 +1,51 @@
+html,body{height: 100%;}
+body{background: url(../imgs/bg-gif.gif);background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed;overflow: hidden;position: relative;font-family: "polans", cursive;}
+
+.comic{font-family: "polans", cursive;}
+
+main{height: 100vh;overflow-y: auto;overflow-x: hidden;}
+
+.hero-section{text-align: center;padding-top: 100px;overflow: hidden;}
+.drop-shadow{filter: drop-shadow(0px 0px 5px #000000);}
+html {
+  scroll-behavior: smooth;
+}
+.text-primary-gradient {
+  background: linear-gradient(rgb(231, 7, 7) 0%, rgb(255, 145, 0) 42%, rgb(0, 255, 221) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section.py-5{padding-top: 80px !important;}
+
+.navbar{}
+.navbar .nav-item{}
+.navbar .nav-item .nav-link{font-size: 26px;color: #fff;font-weight: bold;padding: 10px 30px;}
+
+.duration-1s{animation-duration: 1s;}
+.duration-2s{animation-duration: 2s;}
+.duration-3s{animation-duration: 3s;}
+.duration-5s{animation-duration: 5s;}
+.duration-10s{animation-duration: 10s;}
+.duration-15s{animation-duration: 15s;}
+.duration-20s{animation-duration: 20s;}
+
+.position-fixed{position: fixed;max-width: 150px;}
+.position-fixed{}
+.animate-5{bottom: 0%;}
+.anim-move-rotate{left: 0;right: 0;margin: auto;top: 0;}
+
+.section-padding{padding-top: 100px;padding-bottom: 100px;}
+
+.smooth-slider{}
+.smooth-slider img{max-width: 100px;}
+.scroll-animation{
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+ }
+  100% {
+      transform: translateX(calc(-250px * 7));
+ }
+}

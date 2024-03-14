@@ -1,0 +1,147 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation: pulse 0.3s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 2s ease-in-out infinite both;
+}
+
+@keyframes anim-move-rotate-x {
+  00% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    left: 90%;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0%;
+    transform: rotate(0deg);
+  }
+}
+
+.anim-move-rotate-x {
+  animation: anim-move-rotate-x 10s normal linear infinite;
+}
+
+@keyframes anim-move-rotate-diagonal {
+  00% {
+    right: 0;
+    top: 00%;
+    transform: rotate(0deg);
+  }
+  25% {
+    right: 50%;
+    top: 50%;
+    transform: rotate(360deg);
+  }
+  50% {
+    right: 90%;
+    top: 80%;
+    transform: rotate(00deg);
+  }
+  75% {
+    right: 90%;
+    top: 00%;
+    transform: rotate(360deg);
+  }
+  100% {
+    right: 0%;
+    top: 0%;
+    transform: rotate(0deg);
+  }
+}
+
+.anim-move-rotate-diagonal {
+  animation: anim-move-rotate-diagonal 10s normal linear infinite;
+}
+
+@keyframes anim-move-rotate--diagonal {
+  00% {
+    left: 0;
+    top: 00%;
+    transform: rotate(0deg);
+  }
+  25% {
+    left: 50%;
+    top: 50%;
+    transform: rotate(360deg);
+  }
+  50% {
+    left: 90%;
+    top: 80%;
+    transform: rotate(00deg);
+  }
+  75% {
+    left: 90%;
+    top: 00%;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0%;
+    top: 0%;
+    transform: rotate(0deg);
+  }
+}
+
+.anim-move-rotate--diagonal {
+  animation: anim-move-rotate--diagonal 10s normal linear infinite;
+}
+
+@keyframes anim-move-rotate {
+  00% {
+    transform: rotate(00deg) translate(0%,00%);
+  }
+  100% {
+    transform: rotate(360deg) translate(100%,100%);
+  }
+}
+
+.anim-move-rotate {
+  animation: anim-move-rotate 10s forwards linear infinite;
+  animation-direction: alternate;
+}
+
