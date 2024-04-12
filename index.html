@@ -1,378 +1,1027 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Mirrored from jorampoowel.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 19:19:23 GMT -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Poowel" />
+    <meta name="keywords" content="Poowel" />
 
+    <link rel="icon" type="image/x-icon" href="assets/imgs/pic1.png" />
 
-<!-- Mirrored from jorampoowel.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 19:19:23 GMT -->
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Poowel" />
-  <meta name="keywords" content="Poowel">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
 
-  <link rel="icon" type="image/x-icon" href="assets/imgs/pic1.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/loader.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Poowel</title>
+  </head>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" href="assets/css/fonts.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
-  <link rel="stylesheet" href="assets/css/loader.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Poowel</title>
-</head>
+  <body class="">
+    <div class="preloader drop-shadow text-center js-button-clicked">
+      <h1
+        class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient"
+      >
+        DO YOU WANT TO <br />
+        BE LIKE Poowel?
+      </h1>
+      <div class="loading-bar my-4">
+        <div class="progress-bar"></div>
+      </div>
 
-<body class="">
+      <div class="loaderCounterWrapper text-white">
+        <span class="loaderCounter">420</span> / 500
+      </div>
 
-
-
-  <div class="preloader drop-shadow text-center js-button-clicked">
-    <h1 class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient">
-      DO YOU WANT TO <br>
-      BE LIKE Poowel?
-    </h1>
-    <div class="loading-bar my-4">
-      <div class="progress-bar"></div>
+      <div class="d-flex mt-4 gap-4">
+        <a
+          href="#"
+          class="trigger_music btn btn-success yes-btn fs-3 px-5 py-2 rounded-pill"
+          >Yes</a
+        >
+        <a
+          href="https://t.me/joram_poowel"
+          class="btn btn-danger fs-3 px-5 py-2 rounded-pill"
+          >No</a
+        >
+      </div>
     </div>
 
-    <div class="loaderCounterWrapper text-white"><span class="loaderCounter">420</span> / 500</div>
+    <img
+      src="assets/imgs/clash-royale-goblin0.gif"
+      alt=""
+      class="img-fluid position-fixed anim-move-rotate-x duration-15s animate-1"
+    />
 
-    <div class="d-flex mt-4 gap-4">
-      <a href="#" class="btn btn-success yes-btn fs-3 px-5 py-2 rounded-pill">Yes</a>
-      <a href="#" class="btn btn-danger fs-3 px-5 py-2 rounded-pill">No</a>
-    </div>
+    <img
+      src="assets/imgs/clash-royale-goblin1.gif"
+      alt=""
+      class="img-fluid position-fixed anim-move-rotate-diagonal duration-10s animate-2"
+    />
 
-  </div>
+    <img
+      src="assets/imgs/clash-royale-goblin1.gif"
+      alt=""
+      class="img-fluid position-fixed anim-move-rotate--diagonal duration-10s animate-3"
+    />
 
-  <img src="assets/imgs/clash-royale-goblin0.gif" alt="" class="img-fluid position-fixed anim-move-rotate-x duration-15s animate-1">
+    <main class="opacity_hide">
+      <header>
+        <nav class="navbar navbar-expand-xl drop-shadow z-3 fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid"
+                width="80"
+            /></a>
+            <button
+              class="navbar-toggler d-xl-none text-white drop-shadow"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavId"
+              aria-controls="collapsibleNavId"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="40"
+                stroke-width="2.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+                />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#about" aria-current="page"
+                    >About <span class="visually-hidden">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how-to-buy">How to Buy</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://dexscreener.com/solana/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9"
+                    target="_blank"
+                    >Chart</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                <li class="nav-item" style="margin-right: 4px">
+                  <a
+                    class="btn btn-success fs-4 fw-bold px-4"
+                    href="https://www.dextools.io/app/en/solana/pair-explorer/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9?t=1712910418427"
+                    target="_blank"
+                    >Buy $Poowel</a
+                  >
+                  <a href="#" id="mute" class="btn btn-danger fs-4 fw-bold px-4"
+                    ><i id="mute_icon" class="fa-solid fa-volume-xmark"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-  <img src="assets/imgs/clash-royale-goblin1.gif" alt="" class="img-fluid position-fixed anim-move-rotate-diagonal duration-10s animate-2">
+      <section class="hero-section">
+        <h1
+          class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient"
+        >
+          $Poowel $Poowel $Poowel
+        </h1>
 
-  <img src="assets/imgs/clash-royale-goblin1.gif" alt="" class="img-fluid position-fixed anim-move-rotate--diagonal duration-10s animate-3">
+        <img
+          src="assets/imgs/logo.png"
+          alt=""
+          class="img-fluid col-lg-5 mx-auto pulse z-2 position-relative"
+        />
 
-  <main class="opacity_hide">
+        <img
+          src="assets/imgs/clash-royale-goblin2.gif"
+          alt=""
+          class="img-fluid position-fixed anim-move-rotate duration-10s animate-4"
+        />
 
-    <header>
-      <nav class="navbar navbar-expand-xl drop-shadow z-3 fixed-top">
+        <img
+          src="assets/imgs/clash-royale-goblin2.gif"
+          alt=""
+          class="img-fluid position-fixed anim-move-rotate-x duration-10s animate-5"
+        />
+      </section>
+
+      <section class="mt-5">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/imgs/pic2.png" alt="" class="img-fluid" width="80"></a>
-          <button class="navbar-toggler d-xl-none text-white drop-shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="40" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
-            </svg>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#about" aria-current="page">About <span class="visually-hidden">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#tokenomics">Tokenomics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#how-to-buy">How to Buy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dexscreener.com/solana/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9" target="_blank">Chart</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-              <li class="nav-item" style="margin-right: 4px;">
-                <a class="btn btn-success fs-4 fw-bold px-4" href="https://raydium.io/swap/?outputCurrency=BHcPVARUJEV3rCAmbLgRm7QPmZotsCcHcKWwzvCSAHJi">Buy $Poowel (Raydium)</a>
-              </li>
-              <li class="nav-item">
-                  <a class="btn btn-success fs-4 fw-bold px-4" href="https://t.me/bonkbot_bot?start=ref_sy2a0_ca_BHcPVARUJEV3rCAmbLgRm7QPmZotsCcHcKWwzvCSAHJi">Buy $Poowel (Bonkbot)</a>
-              </li>
-            </ul>
+          <div class="row justify-content-center">
+            <div class="col-lg-auto col-6">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite flipInX duration-3s"
+              />
+            </div>
+            <div class="col-lg-auto col-6">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite flipInY duration-2s"
+              />
+            </div>
+            <div class="col-lg-auto col-6">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite hinge duration-2s"
+              />
+            </div>
+            <div class="col-lg-auto col-6">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite rotateIn duration-2s"
+              />
+            </div>
+            <div class="col-lg-auto col-6">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite fadeInDown duration-2s"
+              />
+            </div>
           </div>
         </div>
-      </nav>
+      </section>
 
-    </header>
-
-    <section class="hero-section">
-
-      <h1 class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient">$Poowel $Poowel $Poowel</h1>
-
-      <img src="assets/imgs/logo.png" alt="" class="img-fluid col-lg-5 mx-auto pulse z-2 position-relative">
-
-
-
-      <img src="assets/imgs/clash-royale-goblin2.gif" alt="" class="img-fluid position-fixed anim-move-rotate duration-10s animate-4">
-
-      <img src="assets/imgs/clash-royale-goblin2.gif" alt="" class="img-fluid position-fixed anim-move-rotate-x duration-10s animate-5">
-
-    </section>
-
-    <section class="mt-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-auto col-6"><img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite flipInX duration-3s"></div>
-          <div class="col-lg-auto col-6"><img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite flipInY duration-2s"></div>
-          <div class="col-lg-auto col-6"><img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite hinge duration-2s"></div>
-          <div class="col-lg-auto col-6"><img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite rotateIn duration-2s"></div>
-          <div class="col-lg-auto col-6"><img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite fadeInDown duration-2s"></div>
+      <section class="my-5 position-relative z-2 py-5 overflow-hidden">
+        <div class="d-flex scroll-animation">
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
+          <img
+            src="assets/imgs/pic1.png"
+            alt=""
+            class="img-fluid"
+            width="100"
+          />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="my-5 position-relative z-2 py-5 overflow-hidden">
-      <div class="d-flex scroll-animation">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-        <img src="assets/imgs/pic1.png" alt="" class="img-fluid" width="100">
-      </div>
-    </section>
+      <section class="info-section py-5 py-5 w-100 position-relative z-2">
+        <div class="container">
+          <div class="text-center text-white drop-shadow">
+            <h1
+              class="display-4 fw-bold animated infinite pulse text-primary-gradient mb-4"
+            >
+              ME GO BRRRRRRR
+            </h1>
 
-    <section class="info-section py-5 py-5 w-100 position-relative z-2">
-      <div class="container">
-        <div class="text-center text-white drop-shadow">
-          <h1 class="display-4 fw-bold animated infinite pulse text-primary-gradient mb-4">ME GO BRRRRRRR</h1>
+            <h4 class="comic fw-bold animated infinite pulse">
+              Contract Address
+            </h4>
+            <h4>BHcPVARUJEV3rCAmbLgRm7QPmZotsCcHcKWwzvCSAHJi</h4>
+
+            <div class="row gy-4 align-items-center mt-0">
+              <div class="col-lg-6">
+                <div
+                  class="bg-white p-4 text-black fw-bold rounded-4 mb-4 border border-black border-5"
+                >
+                  <div class="">
+                    <h4>
+                      joram poowel mek econumi gret agen. poowel kel stonks nd
+                      mek crepto pemp pemp pemp. mi prent mur moni nd wi go moon
+                      tegethe. u es cuming wif us toe da moon?
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <img
+                  src="assets/imgs/Help%20mi%20Poowel....png"
+                  alt=""
+                  class="img-fluid border border-black border-5 rounded-4"
+                />
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 justify-content-center mt-4 flex-wrap">
+              <a
+                href="https://twitter.com/poowel_solana"
+                class="btn btn-danger fs-5 px-4 py-2"
+                target="_blank"
+                >Twitter</a
+              >
+              <a
+                href="https://t.me/joram_poowel"
+                class="btn btn-danger fs-5 px-4 py-2"
+                target="_blank"
+                >Telegram</a
+              >
+              <a
+                href="https://www.dextools.io/app/en/solana/pair-explorer/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9?t=1710447031135"
+                class="btn btn-danger fs-5 px-4 py-2"
+                target="_blank"
+                >DexTools</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section py-5 py-5 position-relative z-2" id="about">
+        <div class="container">
+          <div class="col-lg-12 text-center text-white drop-shadow mx-auto">
+            <h1
+              class="display-4 fw-bold animated infinite flash text-primary-gradient"
+            >
+              About Us/Mission
+            </h1>
+
+            <img
+              src="assets/imgs/bannerwithtext.jpg"
+              alt=""
+              class="img-fluid rounded-4 my-4"
+            />
+
+            <a
+              href="https://t.me/joram_poowel"
+              class="btn btn-danger fs-5 px-4 py-2"
+              target="_blank"
+              >Join Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="py-sm-5 py-4 my-5 position-relative z-2" id="how-to-buy">
+        <div class="container">
+          <h1
+            class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient mb-4 text-center"
+          >
+            How To Buy $POOWEL
+          </h1>
+          <div class="row gy-4 align-items-left">
+            <div class="col-lg-12">
+              <div
+                class="bg-white p-4 text-black fw-bold rounded-4 border border-black border-5"
+              >
+                <div class="" style="font-family: 'Coming Soon', sans-serif">
+
+                 
+                  <h1>HOW TO BUY</h1>
+                  
+                  <br>
+                  <br>
+                  <h3>CREATE A WALLET</h3>
+                  <h4>Download Phantom or your wallet of choice from the app store or Google Play for free. Desktop users, download the Google Chrome extension by going to Phantom.</h4>
+                  <br>
+                  <h3>Get Some SOL</h3>
+                  <h4>Have SOL in your wallet to switch to $POOWEL. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.</h4>
+                  <br>
+                  <h3>Go to Raydium</h3>
+                  <h4>Connect to Raydium. Go to Raydium in google chrome or on the browser inside your Phantom app. Connect your wallet. Paste the $POOWEL token address into Raydium, select $POOWEL, and confirm. When Phantom prompts you for a wallet signature, sign.</h4>
+                  <br>
+                  <h3>POOWEL</h3>
+                  <h4>Switch SOL for $POOWEL. We have Zero taxes so you don’t need to worry about buying with a specific slippage, although you may</h/4>
+
+
           
-          <h4 class="comic fw-bold animated infinite pulse">Contract Address</h4>
-          <h4>BHcPVARUJEV3rCAmbLgRm7QPmZotsCcHcKWwzvCSAHJi</h4>
-
-          <div class="row gy-4 align-items-center mt-0">
-            <div class="col-lg-6">
-              <div class="bg-white p-4 text-black fw-bold rounded-4 mb-4 border border-black border-5">
-                <div class="">
-                  <h4>joram poowel mek econumi gret agen. poowel kel stonks nd mek crepto pemp pemp pemp. mi prent mur moni nd wi go moon tegethe. u es cuming wif us toe da moon?</h4>
+                  <br />
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <img src="assets/imgs/Help%20mi%20Poowel....png" alt="" class="img-fluid border border-black border-5 rounded-4">
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section position-relative z-2 py-sm-5 py-4 my-5">
+        <div class="container">
+          <div class="row gy-4 text-center">
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite flash duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite rotateInDownLeft duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite flipInY duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite pulse duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite shake duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite swing duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite rubberBand duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite lightSpeedIn duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite zoomInDown duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite zoomInRight duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic1.png"
+                alt=""
+                class="img-fluid animated infinite bounceInRight duration-3s"
+              />
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="assets/imgs/pic2.png"
+                alt=""
+                class="img-fluid animated infinite jello duration-3s"
+              />
             </div>
           </div>
-
-          <div class="d-flex gap-3 justify-content-center mt-4 flex-wrap">
-            <a href="https://twitter.com/poowel_solana" class="btn btn-danger fs-5 px-4 py-2">Twitter</a>
-            <a href="https://t.me/joram_poowel" class="btn btn-danger fs-5 px-4 py-2">Telegram</a>
-            <a href="https://dexscreener.com/solana/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9" class="btn btn-danger fs-5 px-4 py-2">Dexscreener</a>
-			<a href="https://www.dextools.io/app/en/solana/pair-explorer/7EnY9qYGXtWybZ3CP83x8gyK2FyhWgEuBjJFyQFnFWN9?t=1710447031135" class="btn btn-danger fs-5 px-4 py-2">DexTools</a>
-          </div>
         </div>
+      </section>
+
+      <div class="text-center drop-shadow">
+        <a
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#disclaimer"
+          class="btn btn-danger mt-5 mb-5 fs-5 px-4 py-2 position-relative z-2"
+          >Disclaimer</a
+        >
       </div>
-    </section>
 
-    <section class="about-section py-5 py-5 position-relative z-2" id="about">
-      <div class="container">
-        <div class="col-lg-12 text-center text-white drop-shadow mx-auto">
-          <h1 class="display-4 fw-bold animated infinite flash text-primary-gradient">About Us/Mission</h1>
+      <footer
+        class="position-relative z-2 my-5 text-center text-white drop-shadow"
+      >
+        <p>© 2024 Poowel. All right reserved.</p>
+      </footer>
 
-          <img src="assets/imgs/bannerwithtext.jpg" alt="" class="img-fluid rounded-4 my-4">
-
-          <a href="#" class="btn btn-danger fs-5 px-4 py-2">Join Now</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-sm-5 py-4 my-5 position-relative z-2" id="tokenomics">
-      <div class="container">
-        <h1 class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient mb-4 text-center">Tokenomics</h1>
-        <div class="row gy-4 align-items-center">
-          <div class="col-lg-6">
-            <img src="assets/imgs/joram%20meme%20_3.jpg" alt="" class="img-fluid border border-black border-5 rounded-4">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-white p-4 text-black fw-bold rounded-4 border border-black border-5 text-center">
-              <div class="">
-                <h4>
-                  Total Supply:
-                  1,000,000,000 $POOWEL
-                </h4> <br><br>
-                <h4>
-                  Max Supply:
-                  1,000,000,000 $POOWEL
-                </h4> <br><br>
-                <h4>Ownership: Fully Community-owned: project is decentralized with no central authority.</h4> <br><br>
-                <p>Mint: The mint is revoked to ensure security for holders.</p>
-              </div>
+      <div
+        class="modal fade text-white text-center"
+        id="disclaimer"
+        tabindex="-1"
+        data-bs-theme="dark"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        role="dialog"
+        aria-labelledby="modalTitleId"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <h1
+                class="modal-title fs-2 fw-bold text-primary-gradient"
+                id="modalTitleId"
+              >
+                POOWEL MEMECOIN DISCLAIMER
+              </h1>
+            </div>
+            <div class="modal-body fw-bold fs-5">
+              Welcome to the Poowel community! This document serves as the
+              official disclaimer for Poowel and its related activities,
+              services, and digital tokens. By engaging with, acquiring, or
+              utilizing Poowel, you acknowledge and agree to the stipulations
+              outlined below. For Entertainment Purposes Only: Poowel is created
+              and disseminated strictly for entertainment purposes. It is not
+              designed or intended to function as an investment, currency, store
+              of value, or any financial instrument. Poowel has no affiliation
+              with any financial institutions; it is completely and strictly
+              satirical or comedic in nature. Absence of Financial Advice: All
+              information provided by the creators and developers of Poowel
+              ("The Developers"), including but not limited to communications
+              via social media, websites, and forums, is presented solely for
+              general informational purposes. This information does not
+              constitute financial, legal, or professional advice of any kind.
+              You are strongly advised to seek independent financial counsel
+              before making any decisions based on this information. No
+              Assurance of Value: Poowel is provided without any inherent or
+              guaranteed value. Its market price and worth are subject to
+              extreme volatility and may potentially drop to zero. By
+              participating in Poowel, you acknowledge your understanding of
+              these risks and assume full responsibility for any resulting
+              losses. Waiver of Liability: The Developers are not liable for any
+              form of loss or damage that may arise from your dealings in
+              Poowel. This encompasses, but is not limited to, losses or damages
+              resulting from market volatility, the discontinuation of the
+              project, or any other unforeseen factors. You agree to indemnify
+              and hold harmless The Developers from any claims, demands, and
+              damages of every kind, whether known or unknown, arising out of or
+              in any way connected with your use of Poowel. By interacting with
+              Poowel, you signify your agreement to this disclaimer and
+              acknowledge that you are participating at your own risk, fully
+              aware of the volatility and speculative nature of memecoins.
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <section class="py-sm-5 py-4 my-5 position-relative z-2" id="how-to-buy">
-      <div class="container">
-        <h1 class="text-white display-3 fw-bold heartbeat position-relative z-2 drop-shadow text-primary-gradient mb-4 text-center">How To Buy $POOWEL</h1>
-        <div class="row gy-4 align-items-center">
-          <div class="col-lg-6">
-            <div class="bg-white p-4 text-black fw-bold rounded-4 border border-black border-5 text-center">
-              <div class="">
-                <h4><b>Setting Up a Solana Wallet:</b> First, choose and install a Solana-compatible wallet such as Phantom or Solflare. Once installed, create your wallet and ensure your private key or seed phrase is securely stored.</h4> <br><br>
-                <h4><b>‍Acquiring Solana (SOL):</b> Purchase SOL from a cryptocurrency exchange like Coinbase or Binance. After purchasing, transfer the SOL to your Solana wallet.</h4> <br><br>
-                <h4><b>‍Exchanging for $POOWEL on Raydium:</b> Visit Raydium and connect your Solana wallet. Use the swap or trade feature on Raydium to exchange your SOL for $xxx tokens.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="assets/imgs/joram%20meme%20_intital%20post.png" alt="" class="img-fluid border border-black border-5 rounded-4">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="gallery-section position-relative z-2 py-sm-5 py-4 my-5">
-      <div class="container">
-        <div class="row gy-4 text-center">
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite flash duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite rotateInDownLeft duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite flipInY duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite pulse duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite shake duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite swing duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite rubberBand duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite lightSpeedIn duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite zoomInDown duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite zoomInRight duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic1.png" alt="" class="img-fluid animated infinite bounceInRight duration-3s">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/imgs/pic2.png" alt="" class="img-fluid animated infinite jello duration-3s">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="text-center drop-shadow"><a href="#" data-bs-toggle="modal" data-bs-target="#disclaimer" class="btn btn-danger mt-5 mb-5 fs-5 px-4 py-2 position-relative z-2">Disclaimer</a></div>
-    
-    <footer class="position-relative z-2 my-5 text-center text-white drop-shadow">
-      <p>© 2024 Poowel. All right reserved.</p>
-    </footer>
-    
-    <div class="modal fade text-white text-center" id="disclaimer" tabindex="-1" data-bs-theme="dark" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl" role="document">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center">
-            <h1 class="modal-title fs-2 fw-bold text-primary-gradient" id="modalTitleId">POOWEL MEMECOIN DISCLAIMER</h1>
-          </div>
-          <div class="modal-body fw-bold fs-5">
-    
-            Welcome to the Poowel community! This document serves as the official disclaimer for Poowel and its related activities, services, and digital tokens. By engaging with, acquiring, or utilizing Poowel, you acknowledge and agree to the stipulations outlined below.
-    
-            For Entertainment Purposes Only: Poowel is created and disseminated strictly for entertainment purposes. It is not designed or intended to function as an investment, currency, store of value, or any financial instrument. Poowel has no affiliation with any financial institutions; it is completely and strictly satirical or comedic in nature.
-    
-            Absence of Financial Advice: All information provided by the creators and developers of Poowel ("The Developers"), including but not limited to communications via social media, websites, and forums, is presented solely for general informational purposes. This information does not constitute financial, legal, or professional advice of any kind. You are strongly advised to seek independent financial counsel before making any decisions based on this information.
-    
-            No Assurance of Value: Poowel is provided without any inherent or guaranteed value. Its market price and worth are subject to extreme volatility and may potentially drop to zero. By participating in Poowel, you acknowledge your understanding of these risks and assume full responsibility for any resulting losses.
-    
-            Waiver of Liability: The Developers are not liable for any form of loss or damage that may arise from your dealings in Poowel. This encompasses, but is not limited to, losses or damages resulting from market volatility, the discontinuation of the project, or any other unforeseen factors. You agree to indemnify and hold harmless The Developers from any claims, demands, and damages of every kind, whether known or unknown, arising out of or in any way connected with your use of Poowel.
-    
-            By interacting with Poowel, you signify your agreement to this disclaimer and acknowledge that you are participating at your own risk, fully aware of the volatility and speculative nature of memecoins.
-          </div>
-          <div class="modal-footer justify-content-center">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
-
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
