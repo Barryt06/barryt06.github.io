@@ -15,13 +15,18 @@ mute_button.addEventListener("click", () => {
   if (!mute) {
     audio.muted = true;
     mute = true;
-    mute_icon.classList.remove("fa-volume-xmark");
     mute_icon.classList.add("fa-volume-high");
+    mute_icon.classList.remove("fa-volume-xmark");
+    mute_button.classList.remove("btn-danger");
+    mute_button.classList.add("btn-success");
   } else {
     audio.muted = false;
     mute = false;
+
     mute_icon.classList.add("fa-volume-xmark");
     mute_icon.classList.remove("fa-volume-high");
+    mute_button.classList.add("btn-danger");
+    mute_button.classList.remove("btn-success");
   }
 });
 buttons.forEach((button) => {
